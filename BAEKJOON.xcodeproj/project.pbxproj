@@ -25,6 +25,15 @@
 /* Begin PBXFileReference section */
 		65C94A94298119020013E8FB /* BAEKJOON */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BAEKJOON; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C94A97298119020013E8FB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		65C94A9F2981193E0013E8FB /* 10171.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 10171.swift; sourceTree = "<group>"; };
+		65C94AA02981193E0013E8FB /* 10430.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 10430.swift; sourceTree = "<group>"; };
+		65C94AA12981193E0013E8FB /* 10172.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 10172.swift; sourceTree = "<group>"; };
+		65C94AA22981193E0013E8FB /* 3003.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 3003.swift; sourceTree = "<group>"; };
+		65C94AA32981193E0013E8FB /* 10869.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 10869.swift; sourceTree = "<group>"; };
+		65C94AA42981193E0013E8FB /* 25083.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 25083.swift; sourceTree = "<group>"; };
+		65C94AA52981193E0013E8FB /* 10926.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 10926.swift; sourceTree = "<group>"; };
+		65C94AA62981193E0013E8FB /* 2588.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2588.swift; sourceTree = "<group>"; };
+		65C94AA72981193E0013E8FB /* 18108.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 18108.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,7 @@
 		65C94A8B298119020013E8FB = {
 			isa = PBXGroup;
 			children = (
+				65C94A9E298119180013E8FB /* 백준 1단계 */,
 				65C94A96298119020013E8FB /* BAEKJOON */,
 				65C94A95298119020013E8FB /* Products */,
 			);
@@ -60,6 +70,23 @@
 				65C94A97298119020013E8FB /* main.swift */,
 			);
 			path = BAEKJOON;
+			sourceTree = "<group>";
+		};
+		65C94A9E298119180013E8FB /* 백준 1단계 */ = {
+			isa = PBXGroup;
+			children = (
+				65C94AA32981193E0013E8FB /* 10869.swift */,
+				65C94AA52981193E0013E8FB /* 10926.swift */,
+				65C94AA72981193E0013E8FB /* 18108.swift */,
+				65C94AA22981193E0013E8FB /* 3003.swift */,
+				65C94AA02981193E0013E8FB /* 10430.swift */,
+				65C94AA62981193E0013E8FB /* 2588.swift */,
+				65C94A9F2981193E0013E8FB /* 10171.swift */,
+				65C94AA12981193E0013E8FB /* 10172.swift */,
+				65C94AA42981193E0013E8FB /* 25083.swift */,
+			);
+			name = "백준 1단계";
+			path = "백준 1단계";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
