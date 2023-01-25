@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65C94A98298119020013E8FB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C94A97298119020013E8FB /* main.swift */; };
+		652683E0298158F000AD8450 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652683DF298158F000AD8450 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		652683DF298158F000AD8450 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		65C94A94298119020013E8FB /* BAEKJOON */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BAEKJOON; sourceTree = BUILT_PRODUCTS_DIR; };
-		65C94A97298119020013E8FB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		65C94A9F2981193E0013E8FB /* 10171.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 10171.swift; sourceTree = "<group>"; };
 		65C94AA02981193E0013E8FB /* 10430.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 10430.swift; sourceTree = "<group>"; };
 		65C94AA12981193E0013E8FB /* 10172.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 10172.swift; sourceTree = "<group>"; };
@@ -34,6 +34,13 @@
 		65C94AA52981193E0013E8FB /* 10926.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 10926.swift; sourceTree = "<group>"; };
 		65C94AA62981193E0013E8FB /* 2588.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 2588.swift; sourceTree = "<group>"; };
 		65C94AA72981193E0013E8FB /* 18108.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 18108.swift; sourceTree = "<group>"; };
+		65C94AB229811B5F0013E8FB /* 1330.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1330.swift; sourceTree = "<group>"; };
+		65C94AB429811F710013E8FB /* 9498.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9498.swift; sourceTree = "<group>"; };
+		65C94AB6298120580013E8FB /* 2753.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2753.swift; sourceTree = "<group>"; };
+		65C94AB82981222C0013E8FB /* 14681.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14681.swift; sourceTree = "<group>"; };
+		65C94ABD29813CFD0013E8FB /* 2884.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2884.swift; sourceTree = "<group>"; };
+		65C94AC0298143D90013E8FB /* 2525.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2525.swift; sourceTree = "<group>"; };
+		65C94AC229814FE70013E8FB /* 2480.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2480.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,11 +54,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		652683DE298158E400AD8450 /* 백준 3단계 */ = {
+			isa = PBXGroup;
+			children = (
+				652683DF298158F000AD8450 /* main.swift */,
+			);
+			name = "백준 3단계";
+			path = "백준 3단계";
+			sourceTree = "<group>";
+		};
 		65C94A8B298119020013E8FB = {
 			isa = PBXGroup;
 			children = (
+				652683DE298158E400AD8450 /* 백준 3단계 */,
+				65C94AB129811A7E0013E8FB /* 백준 2단계 */,
 				65C94A9E298119180013E8FB /* 백준 1단계 */,
-				65C94A96298119020013E8FB /* BAEKJOON */,
 				65C94A95298119020013E8FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,14 +79,6 @@
 				65C94A94298119020013E8FB /* BAEKJOON */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		65C94A96298119020013E8FB /* BAEKJOON */ = {
-			isa = PBXGroup;
-			children = (
-				65C94A97298119020013E8FB /* main.swift */,
-			);
-			path = BAEKJOON;
 			sourceTree = "<group>";
 		};
 		65C94A9E298119180013E8FB /* 백준 1단계 */ = {
@@ -87,6 +96,21 @@
 			);
 			name = "백준 1단계";
 			path = "백준 1단계";
+			sourceTree = "<group>";
+		};
+		65C94AB129811A7E0013E8FB /* 백준 2단계 */ = {
+			isa = PBXGroup;
+			children = (
+				65C94AB229811B5F0013E8FB /* 1330.swift */,
+				65C94AB429811F710013E8FB /* 9498.swift */,
+				65C94AB6298120580013E8FB /* 2753.swift */,
+				65C94AB82981222C0013E8FB /* 14681.swift */,
+				65C94ABD29813CFD0013E8FB /* 2884.swift */,
+				65C94AC0298143D90013E8FB /* 2525.swift */,
+				65C94AC229814FE70013E8FB /* 2480.swift */,
+			);
+			name = "백준 2단계";
+			path = "백준 2단계";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +145,7 @@
 				TargetAttributes = {
 					65C94A93298119020013E8FB = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -147,7 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C94A98298119020013E8FB /* main.swift in Sources */,
+				652683E0298158F000AD8450 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,10 +295,17 @@
 		65C94A9C298119020013E8FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZG488AACV6;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -281,9 +313,15 @@
 		65C94A9D298119020013E8FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZG488AACV6;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
