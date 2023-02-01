@@ -34,8 +34,23 @@
 //예제 출력 5
 //12
 
+
 import Foundation
 
+let input = Int(readLine()!)!
+let inputNum = input
+var num = input
 
+var cycle = 0
 
-
+repeat {
+    let firstNum = num / 10
+    let sceondNum = num % 10
+    
+    var sum = (firstNum + sceondNum) % 10
+    num = (sceondNum * 10) + sum
+    
+    cycle += 1
+} while inputNum != num
+            
+print(cycle)
