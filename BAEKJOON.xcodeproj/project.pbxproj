@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		65B0DA902990F850006AF255 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B0DA8F2990F84E006AF255 /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		65C94A92298119020013E8FB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -30,6 +34,8 @@
 		6572ECBE298C011B00D6CAC0 /* 8958(OX퀴즈).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "8958(OX퀴즈).swift"; sourceTree = "<group>"; };
 		6572ECC0298C0CBD00D6CAC0 /* 4344(평균은 넘겠지).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4344(평균은 넘겠지).swift"; sourceTree = "<group>"; };
 		65AB48B5298CFC5600A5419B /* 1065(한수).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1065(한수).swift"; sourceTree = "<group>"; };
+		65B0DA8D2990E152006AF255 /* 1157(단어 공부).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1157(단어 공부).swift"; sourceTree = "<group>"; };
+		65B0DA8F2990F84E006AF255 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		65C94A94298119020013E8FB /* BAEKJOON */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BAEKJOON; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C94A9F2981193E0013E8FB /* 10171(고양이).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "10171(고양이).swift"; sourceTree = "<group>"; };
 		65C94AA02981193E0013E8FB /* 10430(나머지).swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "10430(나머지).swift"; sourceTree = "<group>"; };
@@ -103,6 +109,8 @@
 				65D2B271298E428A00229EC3 /* 11720(숫자의 합).swift */,
 				65D2B273298E49AE00229EC3 /* 10809(알파벳 찾기).swift */,
 				65D2B275298E7FB300229EC3 /* 2675(문자열 반복).swift */,
+				65B0DA8D2990E152006AF255 /* 1157(단어 공부).swift */,
+				65B0DA8F2990F84E006AF255 /* main.swift */,
 			);
 			name = "백준 6단계 (문자열)";
 			path = "백준 6단계 (문자열)";
@@ -247,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B0DA902990F850006AF255 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
